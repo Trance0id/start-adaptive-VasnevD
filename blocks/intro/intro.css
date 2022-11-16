@@ -1,0 +1,10 @@
+.intro {
+  padding: 92px 0;
+  width: 100%;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  grid-area: intro;
+  justify-self: left;
+
+}
