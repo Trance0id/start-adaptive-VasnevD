@@ -1,0 +1,5 @@
+.place__description {
+  align-self: start;
+  display: grid;
+  gap: 26px;
+}
