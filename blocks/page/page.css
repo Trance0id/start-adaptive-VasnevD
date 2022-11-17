@@ -155,11 +155,11 @@
   width: 100%;
   background-color: #2a2c2f;
   margin: 0;
-  padding: 28px 48px 24px;
+  padding: 28px 0 24px;
   font-family: Inter, Arial, sans-serif;
   box-sizing: border-box;
   display: grid;
-  gap: 92px;
-
+  gap: 56px;
+  justify-items: center;
   color: #fff;
 }
