@@ -1,7 +1,7 @@
-.cover__overlay {
+.cover__overlayimg {
   width: 100%;
   background-color: #2a2c2f;
   position: absolute;
   opacity: .7;
-  transition: opacity ease-out .3s;
+  transition: opacity .2s;
 }

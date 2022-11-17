@@ -1,7 +1,8 @@
 .content {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 0 42px;
   width: 100%;
+  max-width: calc(100% - 48px * 2);
   display: grid;
   row-gap: 92px;
   justify-content: center;
