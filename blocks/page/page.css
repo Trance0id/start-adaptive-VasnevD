@@ -159,7 +159,19 @@
   font-family: Inter, Arial, sans-serif;
   box-sizing: border-box;
   display: grid;
-  gap: 48px;
+  row-gap: 56px;
   justify-items: center;
   color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  .page {
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    padding-top: 16px;
+  }
 }

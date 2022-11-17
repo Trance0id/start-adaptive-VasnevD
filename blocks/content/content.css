@@ -1,11 +1,28 @@
 .content {
   box-sizing: border-box;
-  margin: 0 0 42px;
+  margin: 0 0 36px;
   width: 100%;
-  max-width: calc(100% - 48px * 2);
   display: grid;
   row-gap: 92px;
   justify-content: center;
   grid-template-columns: 100%;
   justify-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .content {
+    margin-bottom: 42px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    row-gap: 64px;
+  }
 }

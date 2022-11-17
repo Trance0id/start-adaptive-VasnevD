@@ -6,3 +6,16 @@
   flex-direction: column;
   justify-self: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    align-items: center;
+    max-width: calc(100% - 16px * 2);
+  }
+}

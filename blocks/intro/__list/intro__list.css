@@ -4,6 +4,20 @@
   margin: 0;
   list-style-type: none;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
+  align-self: flex-start;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: calc(100% - 16px * 2);
+  }
 }
