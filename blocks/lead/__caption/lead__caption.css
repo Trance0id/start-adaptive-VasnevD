@@ -7,3 +7,15 @@
   font-weight: 400;
   letter-spacing: .15em;
 }
+
+@media (max-width: 1020px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

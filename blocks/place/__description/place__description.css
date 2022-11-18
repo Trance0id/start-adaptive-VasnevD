@@ -1,11 +1,18 @@
 .place__description {
   align-self: start;
   display: grid;
-  gap: 26px;
+  gap: 26пшеpx;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1020px) {
+  .place__description {
+    gap: 23px;
+  }
+}
+
+@media (max-width: 760px) {
   .place__description {
     padding: 0 16px;
+    row-gap: 23px;
   }
 }
