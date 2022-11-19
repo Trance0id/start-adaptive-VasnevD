@@ -159,8 +159,8 @@
   font-family: Inter, Arial, sans-serif;
   box-sizing: border-box;
   display: grid;
-  gap: 92px;
-
+  row-gap: 56px;
+  justify-items: center;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
