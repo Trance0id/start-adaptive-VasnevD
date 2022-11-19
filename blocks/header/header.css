@@ -1,7 +1,19 @@
 .header {
-  width: 100%;
-  max-width: calc(100% - 48px * 2);
+  width: calc(100% - 48px * 2);
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 1020px) {
+  .header {
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    width: calc(100% - 16px * 2);
+  }
 }

@@ -1,13 +1,17 @@
 .cover {
-  width: 100%;
-  padding: calc((62.5% - (152px + 32px + 66px)) / 2) 0;
-  box-sizing: border-box;
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center center;
+  background-size: cover;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   /* background: url(../../images/cover-trains.jpg);
   background-size: 100% auto; */
+  width: 100%;
+  max-width: 1184px;
+  z-index: 1;
+  margin: 0;
 }
 
 .cover:hover .cover__overlay {

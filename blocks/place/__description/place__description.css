@@ -3,3 +3,16 @@
   display: grid;
   gap: 26px;
 }
+
+@media (max-width: 1020px) {
+  .place__description {
+    gap: 23px;
+  }
+}
+
+@media (max-width: 760px) {
+  .place__description {
+    padding: 0 16px;
+    row-gap: 23px;
+  }
+}

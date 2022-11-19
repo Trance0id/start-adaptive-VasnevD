@@ -9,3 +9,23 @@
   grid-template-columns: 100%;
   justify-items: center;
 }
+
+@media (max-width: 1270px) {
+  .content {
+    margin-bottom: 42px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .content {
+    row-gap: 88px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .content {
+    row-gap: 64px;
+    margin-bottom: 16px;
+  }
+}

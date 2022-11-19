@@ -159,7 +159,24 @@
   font-family: Inter, Arial, sans-serif;
   box-sizing: border-box;
   display: grid;
-  gap: 56px;
-  justify-items: center;
+  gap: 92px;
+
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media (max-width: 1270px) {
+  .page {
+    row-gap: 48px;
+  }
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding-top: 16px;
+  }
 }

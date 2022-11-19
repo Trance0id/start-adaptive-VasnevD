@@ -4,3 +4,24 @@
   gap: 48px 40px;
   grid-template-columns: minmax(340px, 460px) auto;
 }
+
+@media (max-width: 1270px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) auto;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .place {
+    grid-template-columns: minmax(340px, 340px) auto;
+    column-gap: 28px;
+  }
+}
+
+@media (max-width: 760px) {
+  .place {
+    row-gap: 32px;
+    grid-template-columns: auto;
+  }
+}
