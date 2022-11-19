@@ -18,4 +18,4 @@
 
 **GitHub Pages**
 
-* [Ссылка на деплой](https://trance0id.github.io/Adaptive-Across-Russia/index.html)
+* [Ссылка на деплой](https://trance0id.github.io/start-adaptive-VasnevD/index.html)
