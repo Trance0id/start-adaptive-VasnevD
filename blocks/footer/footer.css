@@ -1,6 +1,6 @@
 .footer {
-  width: 100%;
-  max-width: calc(100% - 48px * 2);
+  width: calc(100% - 48px * 2);
+  max-width: 1184px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,7 +9,7 @@
 
 @media (max-width: 1020px) {
   .footer {
-    max-width: calc(100% - 24px * 2);
+    width: calc(100% - 24px * 2);
   }
 }
 
@@ -17,6 +17,6 @@
   .footer {
     flex-direction: column;
     align-items: flex-start;
-    max-width: calc(100% - 16px * 2);
+    width: calc(100% - 16px * 2);
   }
 }

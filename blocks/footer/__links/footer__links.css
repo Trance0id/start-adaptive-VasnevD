@@ -12,6 +12,7 @@
 @media (max-width: 760px) {
   .footer__links {
     grid-auto-flow: row;
-    margin-bottom: 48px;
+    row-gap: 31px;
+    margin-bottom: 45px;
   }
 }

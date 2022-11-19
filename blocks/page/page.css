@@ -175,7 +175,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 760px) {
   .page {
     padding-top: 16px;
   }

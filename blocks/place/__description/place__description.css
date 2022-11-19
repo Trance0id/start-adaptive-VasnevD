@@ -1,7 +1,7 @@
 .place__description {
   align-self: start;
   display: grid;
-  gap: 26пшеpx;
+  gap: 26px;
 }
 
 @media (max-width: 1020px) {
